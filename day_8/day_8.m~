@@ -1,0 +1,9 @@
+clear; clc; close all;
+
+Input = load('day_8_test.txt');
+
+global Tree;
+
+CurrIndex = 1;
+
+[CurrIndex] = read_node(Input);
